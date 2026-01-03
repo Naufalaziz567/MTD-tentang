@@ -238,13 +238,17 @@ footer {
 }
 
 @media (max-width: 768px) {
-    header {
+    .header {
         gap: 20px;
         padding: 20px;
     }
 
-    .navbar {
-        flex-direction: column;
+    .nav-container {
+        display: block;
+        align-items: center;
+    }
+
+    .nav-menu {
         gap: 10px;
     }
 
@@ -306,6 +310,10 @@ footer {
 }
 
 @media (max-width: 480px) {
+    .nav-container {
+        display: block;
+    }
+
     .members-row {
         grid-template-columns: 1fr;
     }
