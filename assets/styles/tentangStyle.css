@@ -20,6 +20,11 @@ body {
     z-index: 1000;
 }
 
+.logo-container {
+    display: flex;
+    gap: 30px;
+}
+
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -29,7 +34,7 @@ body {
 .logo img {
   height: 50px;
   width: auto;
-  display: block;
+  display: flex;
 }
 
 .nav-container {
