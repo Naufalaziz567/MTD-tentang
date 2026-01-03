@@ -244,7 +244,7 @@ footer {
     }
 
     .nav-container {
-        display: block;
+        display: inline-block;
         align-items: center;
     }
 
